@@ -3,7 +3,7 @@ const studentCount = 5;
 
 let minDiff = 0;
 let subArray = [];
-let diff =0;
+let diff = 0;
 
 // sorting the array
 for (let i=0; i<mainArr.length; i++){
@@ -21,7 +21,7 @@ for(let i=0; i<=mainArr.length-studentCount; i++){
 
     subArray = mainArr.slice(i, i+studentCount);
     minDiff = subArray[studentCount-1] - subArray[0];
-    
+
     if(i==0){
         diff = minDiff;
     }
